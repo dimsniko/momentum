@@ -1,3 +1,5 @@
+import {showGreeting} from './greeting.js'
+
 const time = document.querySelector('.time')
 const data = document.querySelector('.date')
 
@@ -18,7 +20,6 @@ const showTime = () => {
         data.textContent = currentDate    
     }
     showDate()
+    showGreeting()
 }
 showTime()
-
-
