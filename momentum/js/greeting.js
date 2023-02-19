@@ -4,7 +4,7 @@ const name = document.querySelector('.name')
 const date = new Date()
 const hours = date.getHours()
 
-const getTimeOfDay = () => {
+export const getTimeOfDay = () => {
     if (hours >= 6 && hours < 12) {
        return 'morning'
     } else if (hours >= 12 && hours < 18) {
