@@ -1,2 +1,1 @@
-# stage1-tasks
-https://rolling-scopes-school.github.io/dimsniko-JSFEPRESCHOOL2022Q4/momentum/
+Расширение для Google Chrome на основе популярного расширения momentum
