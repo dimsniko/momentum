@@ -9,9 +9,6 @@ let playNum = 0
 
 const audio = new Audio()
 
-
-
-
 const playListContainer = document.querySelector('.play-list')
 
 function addPlayTrack() {
@@ -89,12 +86,7 @@ function playPrev() {
     toggleBtnPlay()
 }
 
-
-
-
-
 audio.addEventListener('ended', playNext)
-
 playStop.addEventListener('click', audioPlay)
 playStop.addEventListener('click', toggleBtnPlay)
 nextPlay.addEventListener('click', playNext)
